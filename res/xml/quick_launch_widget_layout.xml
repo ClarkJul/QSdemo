@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="300dp"
+    android:minHeight="100dp"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="searchbox"
+    android:previewImage="@drawable/fih_default"
+    android:initialLayout="@layout/card_view_layout_quick_launch_listview">
+</appwidget-provider>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">@string/mop_str_quick_start_ep</string>
+
+    <string name="mop_str_title_btn_show_more">SHOW MORE</string>
+    <string name="mop_str_title_btn_show_less">SHOW LESS</string>
+
+    <string name="mop_sc_calendar_new_event">New event</string>
+    <string name="mop_sc_memo_new_note">New note</string>
+
+    <string name="mop_str_title_quick_start">Quick Start</string>
+    <string name="mop_str_title_more_function">MORE FUNCTIONS</string>
+    <string name="mop_str_title_more_apps">MORE APPS</string>
+    <string name="mop_str_title_chosen">ADDED</string>
+    <string name="mop_str_text_no_qsa">No Quick Start Apps or Functions, tap to add.</string>
+    <string name="mop_str_quick_start_ep">Quick Start</string>
+    <string name="mop_str_on">On</string>
+    <string name="mop_str_off">Off</string>
+    <string name="mop_str_list_quick_start">CLICK ADD</string>
+    <string name="mop_str_list_notes">Notes</string>
+    <string name="mop_str_full_notification">Limit reached. Please delete one item before you can add another one.</string>
+    <string name="mop_sc_wechat_scan">Scan</string>
+    <string name="mop_sc_wechat_qr_code">My QR Code</string>
+    <string name="mop_sc_wechat_money">Money</string>
+    <string name="mop_sc_wechat_moments">Moments</string>
+    <string name="mop_sc_fail_notification">Sorry. Open Quick Start failed, please try again later.</string>
+    <string name="mop_sc_alipay_scan">Scan</string>
+    <string name="mop_sc_alipay_pay">Pay</string>
+    <string name="mop_sc_calculator">Calculator</string>
+    <string name="mop_sc_global_data">Global Data</string>
+    <string name="mop_str_app_text_open_wechat">Please open WeChat first.</string>
+    <string name="mop_str_app_text_quick_start">To see available apps or functions in Quick Start card, turn Quick Start on.</string>
+    <string name="onb_tit_loading">Loading…</string>
+
+    <string name="img_load_error" translatable="false">load_error</string>
+    <string name="mop_sc_scanner">Unified Scanner</string>
+    <string name="mop_sc_shot">SmartShot</string>
+    <string name="mop_sc_nokia_mall">Mall</string>
+    <string name="edit">Add</string>
+</resources>

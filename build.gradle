@@ -1,0 +1,91 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+
+    gradle.projectsEvaluated {
+        tasks.withType(JavaCompile) {
+            options.compilerArgs.add('-Xbootclasspath/p:libs/framework.jar')
+        }
+    }
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+    maven {
+        url 'https://maven.google.com'
+    }
+}
+
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "26.0.1"
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+    }
+    signingConfigs {
+        sharekeyv7 {
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('cus-keystore/sharev7.keystore')
+            storePassword 'android'
+        }
+        platformkeyv7{
+            keyAlias 'androiddebugkey'
+            keyPassword 'android'
+            storeFile file('cus-keystore/platformv7.keystore')
+            storePassword 'android'
+        }
+    }
+    defaultConfig {
+        minSdkVersion 24
+        targetSdkVersion 28
+        versionCode 9000015
+        versionName "9.0000.15"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.platformkeyv7
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+}
+
+dependencies {
+//    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'org.greenrobot:eventbus:3.0.0'
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support:design:26.+'
+    provided files('libs/framework.jar')
+    provided files('libs/DataCollectLib_FIH_NOKIA_V2.2.8_4.2_7.0030.10.jar')
+    //compile 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
+}

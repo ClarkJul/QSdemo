@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="quick_launch_name_width">72dp</dimen>
+    <dimen name="quick_launch_empty_icon_left">6dp</dimen>
+
+</resources>

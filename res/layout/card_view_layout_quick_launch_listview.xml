@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quick_launch_widget_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <include layout="@layout/card_view_header"/>
+    <LinearLayout
+        android:background="@drawable/card_view_content_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:alpha="0.93"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/quick_launch_empty_text_list"
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:textColor="#767676"
+            android:text="@string/onb_tit_loading"
+            />
+        <GridView
+            android:id="@+id/recy_card_view_quick_launch_list"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:listSelector="@android:color/transparent"
+            android:paddingBottom="12dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:numColumns="5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<functions>
+    <!--The origin version is 1.0, if it's changed to 2.0 or bigger than previous value on overlay APK, it will update the data in database-->
+    <!--<entry>-->
+        <!--<key>wechat_scan</key> 唯一的Key，对应string label-->
+        <!--<type>0</type> 0：Function, 1: App-->
+        <!--<icon>ic_smartcard_wechat_scan.png</icon>  Full icon name-->
+        <!--<package>com.tencent.mm</package> PackageName-->
+        <!--<activity>com.tencent.mm.plugin.scanner.ui.BaseScanUI</activity> Start Activity-->
+        <!--<choose>true</choose> True：在Choosen List，False：不在Choosen List -->
+    <!--</entry>-->
+    <!--诺基亚商城微信小程序-->
+    <version>2.3</version>
+    <!--<entry>-->
+        <!--<key>mop_sc_nokia_mall</key>-->
+        <!--<type>0</type>-->
+        <!--<icon>ic_smartcard_nokia_mall.png</icon>-->
+        <!--<package>com.tencent.mm</package>-->
+        <!--<activity>com.tencent.mm.plugin.scanner.ui.BaseScanUI</activity>-->
+        <!--<choose>true</choose>-->
+    <!--</entry>-->
+    <!--0 全能扫-->
+    <entry>
+        <key>mop_sc_scanner</key>
+        <type>0</type>
+        <icon>ic_smartcard_scanner.png</icon>
+        <package>com.nbc.allinonescanner</package>
+        <activity>com.nbc.allinonescanner.activity.CaptureActivity</activity>
+        <choose>true</choose>
+    </entry>
+    <!--1 拍一拍-->
+    <entry>
+        <key>mop_sc_shot</key>
+        <type>0</type>
+        <icon>ic_smartcard_shot.png</icon>
+        <package>com.nbc.smartshot</package>
+        <activity>com.android.smartshot.activity.ScannerMainActivity</activity>
+        <choose>true</choose>
+    </entry>
+    <!--2 微信付款-->
+    <entry>
+        <key>mop_sc_wechat_money</key>
+        <type>0</type>
+        <icon>ic_smartcard_wechat_pay.png</icon>
+        <package>com.tencent.mm</package>
+        <activity>com.tencent.mm.plugin.offline.ui.WalletOfflineEntranceUI</activity>
+        <choose>false</choose>
+    </entry>
+
+    <!--3 微信朋友圈-->
+    <entry>
+        <key>mop_sc_wechat_moments</key>
+        <type>0</type>
+        <icon>ic_smartcard_wechat_moment.png</icon>
+        <package>com.tencent.mm</package>
+        <activity>com.tencent.mm.plugin.sns.ui.En_424b8e16</activity>
+        <choose>false</choose>
+    </entry>
+
+    <!--4 微信我的名片-->
+    <entry>
+        <key>mop_sc_wechat_qr_code</key>
+        <type>0</type>
+        <icon>ic_smartcard_wechat_my_qr.png</icon>
+        <package>com.tencent.mm</package>
+        <activity>com.tencent.mm.plugin.setting.ui.setting.SelfQRCodeUI</activity>
+        <choose>false</choose>
+    </entry>
+
+    <!--5 支付宝付款-->
+    <entry>
+        <key>mop_sc_alipay_pay</key>
+        <type>0</type>
+        <icon>ic_smartcard_alipay_pay.png</icon>
+        <package>com.eg.android.AlipayGphone</package>
+        <activity>com.alipay.mobile.onsitepay9.payer.OspTabHostActivity</activity>
+        <choose>false</choose>
+    </entry>
+<!--dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd-->
+    <!--2 微信扫一扫-->
+    <entry>
+        <key>mop_sc_wechat_scan</key>
+        <type>0</type>
+        <icon>ic_smartcard_wechat_scan.png</icon>
+        <package>com.tencent.mm</package>
+        <activity>com.tencent.mm.plugin.scanner.ui.BaseScanUI</activity>
+        <choose>false</choose>
+    </entry>
+    <!--2 支付宝扫一扫 Drop, due to could scan success, re-open when can-->
+    <entry>
+        <key>mop_sc_alipay_scan</key>
+        <type>0</type>
+        <icon>ic_smartcard_alipay_scan.png</icon>
+        <package>com.eg.android.AlipayGphone</package>
+        <activity>com.alipay.mobile.scan.as.main.MainCaptureActivity</activity>
+        <choose>false</choose>
+    </entry>
+
+    <!--7 新建Events-->
+    <entry>
+        <key>mop_sc_calendar_new_event</key>
+        <type>0</type>
+        <icon>ic_smartcard_new_event.png</icon>
+        <action>com.event.createevent</action>
+        <package>com.android.calendar</package>
+        <activity>com.android.calendar.AllInOneActivity</activity>
+        <choose>false</choose>
+    </entry>
+    <!--8 新建Note-->
+    <entry>
+        <key>mop_sc_memo_new_note</key>
+        <type>0</type>
+        <icon>ic_smartcard_new_note.png</icon>
+        <action>com.evenwell.android.memo.NEW_NOTE</action>
+        <package>com.evenwell.android.memo</package>
+        <activity>com.evenwell.android.memo.activity.MainActivity</activity>
+        <choose>true</choose>
+    </entry>
+    <!--9 国际流量-->
+    <entry>
+        <key>mop_sc_global_data</key>
+        <type>0</type>
+        <icon>ic_smartcard_global_data.png</icon>
+        <package>com.redteamobile.global.roaming</package>
+        <activity>com.redteamobile.roaming.activity.MainActivity</activity>
+        <choose>true</choose>
+    </entry>
+    <!--6 计算器-->
+    <entry>
+        <key>mop_sc_calculator</key>
+        <type>0</type>
+        <icon>ic_smartcard_calculator.png</icon>
+        <package>com.android.calculator2</package>
+        <activity>com.android.calculator2.Calculator</activity>
+        <choose>true</choose>
+    </entry>
+</functions>

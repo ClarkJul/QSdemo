@@ -1,0 +1,35 @@
+<resources>
+    <string name="mop_str_title_btn_show_more">展开</string>
+    <string name="mop_str_title_btn_show_less">折叠</string>
+
+    <string name="mop_sc_calendar_new_event">新建活动</string>
+    <string name="mop_sc_memo_new_note">新增备忘录</string>
+
+    <string name="edit">添加</string>
+    <string name="mop_str_title_quick_start">快捷启动</string>
+    <string name="mop_str_title_more_function">更多功能</string>
+    <string name="mop_str_title_more_apps">更多应用程序</string>
+    <string name="mop_str_title_chosen">已添加</string>
+    <string name="mop_str_text_no_qsa">无快捷启动应用程序或功能，点击添加。</string>
+    <string name="mop_str_quick_start_ep">快捷启动</string>
+    <string name="mop_str_on">开启</string>
+    <string name="mop_str_off">关闭</string>
+    <string name="mop_str_list_quick_start">点击添加</string>
+    <string name="mop_str_list_notes">备忘录</string>
+    <string name="mop_str_full_notification">达到限制。请删除一个项目，然后再添加另一个项目。</string>
+    <string name="mop_sc_wechat_scan">扫码</string>
+    <string name="mop_sc_wechat_qr_code">二维码</string>
+    <string name="mop_sc_wechat_money">收付款</string>
+    <string name="mop_sc_wechat_moments">朋友圈</string>
+    <string name="mop_sc_fail_notification">抱歉。打开快捷启动失败，请稍后再试。</string>
+    <string name="mop_sc_alipay_scan">扫码</string>
+    <string name="mop_sc_alipay_pay">付钱</string>
+    <string name="mop_sc_calculator">计算器</string>
+    <string name="mop_str_app_text_open_wechat">请先打开微信。</string>
+    <string name="mop_str_app_text_quick_start">要查看快捷启动卡中的可用应用程序或功能，请打开快捷启动。</string>
+    <string name="onb_tit_loading">正在加载…</string>
+    <string name="mop_sc_scanner">全能扫</string>
+    <string name="mop_sc_shot">拍一拍</string>
+    <string name="mop_sc_nokia_mall">商城</string>
+    <string name="mop_sc_global_data">国际流量</string>
+</resources>

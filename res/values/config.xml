@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="quick_launch_choose_max">10</integer>
+    <integer name="quick_launch_choose_line_count">5</integer>
+
+    <integer name="quick_launch_choose_max_edge">10</integer>
+    <integer name="quick_launch_choose_line_count_edge">2</integer>
+</resources>

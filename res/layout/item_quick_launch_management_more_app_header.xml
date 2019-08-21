@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp">
+    <View
+        android:id="@+id/more_function_app_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:paddingLeft="-16dp"
+        android:paddingRight="-16dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/card_management_hader_color"/>
+    <TextView
+        android:id="@+id/item_quick_launch_management_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        style="@style/quick_launch_header_font"
+        android:text="@string/mop_str_title_chosen"/>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignBottom="@id/tv"-->
+        <!--android:layout_marginLeft="16dp"-->
+        <!--android:layout_toRightOf="@id/tv"-->
+        <!--android:text="Test"-->
+        <!--android:textColor="@color/tip"-->
+        <!--android:textSize="12sp"/>-->
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0.3dp"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:background="@color/tip"/>-->
+</RelativeLayout>

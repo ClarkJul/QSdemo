@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/card_view_header_height"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/card_view_title_background">
+
+    <ImageView
+        android:id="@+id/iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="end|center_vertical"
+        android:paddingEnd="8dp"
+        android:src="@drawable/ic_card_quickstart"
+        />
+    <TextView android:id="@+id/card_view_header_title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="12sp"
+        android:textColor="#212121"
+        android:layout_weight="1"
+        android:gravity="start|center_vertical"
+        android:text="@string/mop_str_title_quick_start"
+        />
+    <ImageView android:id="@+id/card_view_header_more_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="end|center"
+        android:paddingStart="8dp"
+        android:paddingEnd="0dp"
+        android:src="@drawable/ic_smartcard_more"
+        android:contentDescription="@string/img_load_error"/>
+
+</LinearLayout>
